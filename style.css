@@ -1,0 +1,386 @@
+.salamtext {
+
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 340px;
+    text-shadow:
+    0 0 5px white,
+    0 0 10px white,
+    0 0 20px white,
+    0 0 40px rgb(255, 255, 255),
+    0 0 80px rgb(255, 255, 255),
+    0 0 90px rgb(255, 255, 255);
+    font-size: 300%;
+}
+
+
+
+
+
+
+.abouttext {
+
+
+
+  color: white;
+  font-family: 'Freshman' , sans-serif;
+  position: relative;
+  left: 800px;
+  font-size: 50px;
+}
+
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: 700px;
+  left: -550px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+.card-ikinci {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: 275px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.card-ucuncu {
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #1e1e1e;
+  color: white;
+  font-family: sans-serif;
+  margin: 20px auto;
+  position: relative;
+  top: -150px;
+  left: 500px;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+
+.btn-donate {
+  --clr-font-main: hsla(0 0% 20% / 100);
+  --btn-bg-1: hsla(194 100% 69% / 1);
+  --btn-bg-2: hsla(217 100% 56% / 1);
+  --btn-bg-color: hsla(360 100% 100% / 1);
+  --radii: 0.5em;
+  cursor: pointer;
+  padding: 0.9em 1.4em;
+  min-width: 120px;
+  min-height: 44px;
+  font-size: var(--size, 1rem);
+  font-weight: 500;
+  transition: 0.8s;
+  background-size: 280% auto;
+  background-image: linear-gradient(
+    325deg,
+    var(--btn-bg-2) 0%,
+    var(--btn-bg-1) 55%,
+    var(--btn-bg-2) 90%
+  );
+  border: none;
+  border-radius: var(--radii);
+  color: var(--btn-bg-color);
+  box-shadow:
+    0px 0px 20px rgba(71, 184, 255, 0.5),
+    0px 5px 5px -1px rgba(58, 125, 233, 0.25),
+    inset 4px 4px 8px rgba(175, 230, 255, 0.5),
+    inset -4px -4px 8px rgba(19, 95, 216, 0.35);
+    position: relative;
+    top: 370px;
+    left: 680px;
+    opacity: 0;
+  transform: translateY(-30px);
+  animation: slideFade 1s ease-out forwards;
+  animation-delay: 0.5s;
+
+
+  
+}
+
+@keyframes slideFade {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.btn-donate:hover {
+  background-position: right top;
+}
+
+.btn-donate:is(:focus, :focus-visible, :active) {
+  outline: none;
+  box-shadow:
+    0 0 0 3px var(--btn-bg-color),
+    0 0 0 6px var(--btn-bg-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-donate {
+    transition: linear;
+  }
+}
+
+
+
+
+.viqidi-sekil {
+
+
+  position: relative;
+  left: 200px;
+  top: -50px;
+}
+
+
+
+.hakkinda-text {
+
+  color: white;
+  position: relative;
+  top: -400px;
+  left: 750px;
+}
+
+
+.navbar {
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      height: 70px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+      position: relative;
+      top: -2230px;
+       box-shadow:
+    0 0 8px #fff,
+    0 0 15px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff;
+    border-radius: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 95%;
+    z-index: 9999;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    
+    
+    }
+     
+
+    .navbar.blur {
+  background-color: rgba(0, 0, 0, 0.4); /* yarı şəffaf qara */
+  backdrop-filter: blur(10px); /* blur effekti */
+  -webkit-backdrop-filter: blur(10px); /* Safari üçün */
+  
+}
+    
+
+    .navbar .menu {
+      display: flex;
+      gap: 30px;
+     
+    }
+
+    .navbar .menu a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+      position: relative;
+      left: 40px;
+    }
+
+    .navbar .menu a:hover {
+      color: #fff;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 5px;
+    }
+
+    .navbar .socials {
+      display: flex;
+      gap: 15px;
+    }
+
+    .navbar .socials a {
+      color: #ccc;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    .navbar .socials a:hover {
+      color: #1da1f2;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        height: auto;
+      }
+
+      .navbar .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .color-navbar {
+
+
+        color: white;
+      }
+    }
+ 
+
+
+
+    button {
+  position: relative;
+  width: 130px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px #111111 solid;
+  overflow: hidden;
+}
+
+.text1 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 22%;
+}
+
+.text2 {
+  position: absolute;
+  top: 25%;
+  left: -80px;
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.icon::before {
+  position: absolute;
+  left: -100px;
+  top: 0;
+  z-index: -1;
+  content: '';
+  width: 130px;
+  height: 33px;
+  border-radius: 30px;
+  background-color: #111111;
+}
+
+button:hover .icon {
+  transform: translateX(96px);
+  transition: transform 0.5s;
+}
+
+button:hover .text2 {
+  transform: translateX(100px);
+  transition: transform 0.6s;
+}
+
+button:active {
+  transform: scale(1.03);
+}
+
+
+
